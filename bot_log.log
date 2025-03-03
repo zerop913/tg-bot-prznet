@@ -1,0 +1,571 @@
+2025-03-04 01:00:53,587 - root - ERROR - Критическая ошибка при запуске бота: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode=<ParseMode.MARKDOWN: 'Markdown'>)` argument instead.
+Traceback (most recent call last):
+  File "E:\Code\Python\bot-prizyva-net\bot.py", line 56, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "E:\Code\Python\bot-prizyva-net\bot.py", line 29, in main
+    bot = Bot(token=BOT_TOKEN, parse_mode=ParseMode.MARKDOWN)
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\bot.py", line 314, in __init__
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode=<ParseMode.MARKDOWN: 'Markdown'>)` argument instead.
+2025-03-04 01:03:36,105 - root - INFO - База данных настроена
+2025-03-04 01:03:40,136 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:03:40,195 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:03:40,251 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:04:25,107 - root - INFO - Зарегистрирован новый пользователь: zerop913 (1109961645)
+2025-03-04 01:04:25,282 - aiogram.event - INFO - Update id=86666450 is handled. Duration 194 ms by bot id=7899125611
+2025-03-04 01:05:49,572 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:05:49,830 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:05:49,830 - root - INFO - Бот остановлен!
+2025-03-04 01:06:40,788 - root - INFO - База данных настроена
+2025-03-04 01:06:40,958 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:06:41,008 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:06:41,056 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:09:42,220 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:09:42,472 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:09:42,477 - root - INFO - Бот остановлен!
+2025-03-04 01:09:45,217 - root - INFO - База данных настроена
+2025-03-04 01:09:45,363 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:09:45,406 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:09:45,449 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:10:21,876 - root - INFO - Зарегистрирован новый пользователь: polier09 (6171113796)
+2025-03-04 01:10:22,064 - aiogram.event - INFO - Update id=86666451 is handled. Duration 214 ms by bot id=7899125611
+2025-03-04 01:10:54,406 - aiogram.event - INFO - Update id=86666452 is handled. Duration 84 ms by bot id=7899125611
+2025-03-04 01:11:04,014 - aiogram.event - INFO - Update id=86666453 is not handled. Duration 1 ms by bot id=7899125611
+2025-03-04 01:11:14,946 - aiogram.event - INFO - Update id=86666454 is handled. Duration 106 ms by bot id=7899125611
+2025-03-04 01:11:23,027 - aiogram.event - INFO - Update id=86666455 is handled. Duration 66 ms by bot id=7899125611
+2025-03-04 01:11:26,550 - aiogram.event - INFO - Update id=86666456 is handled. Duration 69 ms by bot id=7899125611
+2025-03-04 01:11:41,241 - aiogram.event - INFO - Update id=86666457 is handled. Duration 319 ms by bot id=7899125611
+2025-03-04 01:11:48,675 - aiogram.event - INFO - Update id=86666458 is handled. Duration 170 ms by bot id=7899125611
+2025-03-04 01:15:26,529 - aiogram.event - INFO - Update id=86666459 is handled. Duration 247 ms by bot id=7899125611
+2025-03-04 01:25:08,457 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:25:08,711 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:25:08,712 - root - INFO - Бот остановлен!
+2025-03-04 01:34:51,318 - root - INFO - База данных настроена
+2025-03-04 01:34:51,474 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:34:51,526 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:34:51,573 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:35:21,253 - aiogram.event - INFO - Update id=86666460 is not handled. Duration 2 ms by bot id=7899125611
+2025-03-04 01:35:21,254 - aiogram.event - ERROR - Cause exception while process update id=86666460 by bot id=7899125611
+OperationalError: no such column: freebilet_confirmed
+Traceback (most recent call last):
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\middlewares\role_middleware.py", line 23, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\handlers\admin_handlers.py", line 27, in cmd_admin
+    await register_user(
+    ...<5 lines>...
+    )
+  File "E:\Code\Python\bot-prizyva-net\database\db_operations.py", line 51, in register_user
+    cursor = await db.execute("SELECT user_id, freebilet_confirmed FROM users WHERE user_id = ?", (user_id,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 183, in execute
+    cursor = await self._execute(self._conn.execute, sql, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 122, in _execute
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 105, in run
+    result = function()
+sqlite3.OperationalError: no such column: freebilet_confirmed
+2025-03-04 01:39:22,668 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:39:22,924 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:39:22,925 - root - INFO - Бот остановлен!
+2025-03-04 01:39:26,031 - root - INFO - База данных настроена
+2025-03-04 01:39:26,207 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:39:26,257 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:39:26,310 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:39:29,961 - aiogram.event - INFO - Update id=86666461 is handled. Duration 175 ms by bot id=7899125611
+2025-03-04 01:39:35,697 - aiogram.event - INFO - Update id=86666462 is handled. Duration 65 ms by bot id=7899125611
+2025-03-04 01:39:45,398 - aiogram.event - INFO - Update id=86666463 is not handled. Duration 2 ms by bot id=7899125611
+2025-03-04 01:39:45,398 - aiogram.event - ERROR - Cause exception while process update id=86666463 by bot id=7899125611
+OperationalError: table messages has no column named is_code_phrase
+Traceback (most recent call last):
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\middlewares\role_middleware.py", line 23, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\handlers\admin_handlers.py", line 67, in process_broadcast_message
+    message_id = await save_broadcast_message(broadcast_text, message.from_user.id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\database\db_operations.py", line 108, in save_broadcast_message
+    cursor = await db.execute(
+             ^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 183, in execute
+    cursor = await self._execute(self._conn.execute, sql, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 122, in _execute
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 105, in run
+    result = function()
+sqlite3.OperationalError: table messages has no column named is_code_phrase
+2025-03-04 01:42:07,940 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:42:08,207 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:42:08,211 - root - INFO - Бот остановлен!
+2025-03-04 01:42:10,932 - root - INFO - База данных настроена
+2025-03-04 01:42:11,081 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:42:11,129 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:42:11,177 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:42:15,359 - aiogram.event - INFO - Update id=86666464 is handled. Duration 197 ms by bot id=7899125611
+2025-03-04 01:42:16,536 - aiogram.event - INFO - Update id=86666465 is handled. Duration 65 ms by bot id=7899125611
+2025-03-04 01:42:19,896 - aiogram.event - INFO - Update id=86666466 is handled. Duration 381 ms by bot id=7899125611
+2025-03-04 01:42:24,166 - aiogram.event - INFO - Update id=86666467 is handled. Duration 185 ms by bot id=7899125611
+2025-03-04 01:42:27,935 - aiogram.event - INFO - Update id=86666468 is handled. Duration 140 ms by bot id=7899125611
+2025-03-04 01:42:31,878 - aiogram.event - INFO - Update id=86666469 is handled. Duration 132 ms by bot id=7899125611
+2025-03-04 01:42:35,503 - aiogram.event - INFO - Update id=86666470 is handled. Duration 144 ms by bot id=7899125611
+2025-03-04 01:42:44,517 - aiogram.event - INFO - Update id=86666471 is handled. Duration 134 ms by bot id=7899125611
+2025-03-04 01:42:59,780 - aiogram.event - INFO - Update id=86666472 is handled. Duration 154 ms by bot id=7899125611
+2025-03-04 01:43:08,428 - aiogram.event - INFO - Update id=86666473 is handled. Duration 266 ms by bot id=7899125611
+2025-03-04 01:43:12,319 - aiogram.event - INFO - Update id=86666474 is not handled. Duration 2 ms by bot id=7899125611
+2025-03-04 01:43:28,300 - aiogram.event - INFO - Update id=86666475 is handled. Duration 83 ms by bot id=7899125611
+2025-03-04 01:43:39,300 - aiogram.event - INFO - Update id=86666476 is handled. Duration 64 ms by bot id=7899125611
+2025-03-04 01:43:47,991 - aiogram.event - INFO - Update id=86666477 is handled. Duration 373 ms by bot id=7899125611
+2025-03-04 01:43:55,051 - aiogram.event - INFO - Update id=86666478 is not handled. Duration 2 ms by bot id=7899125611
+2025-03-04 01:43:55,051 - aiogram.event - ERROR - Cause exception while process update id=86666478 by bot id=7899125611
+OperationalError: no such column: status
+Traceback (most recent call last):
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\middlewares\role_middleware.py", line 23, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\handlers\user_handlers.py", line 117, in cmd_codes
+    code_phrases = await get_all_code_phrases()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\database\db_operations.py", line 199, in get_all_code_phrases
+    cursor = await db.execute(
+             ^^^^^^^^^^^^^^^^^
+        "SELECT * FROM messages WHERE is_code_phrase = 1 AND status != 'deleted' ORDER BY id DESC"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 183, in execute
+    cursor = await self._execute(self._conn.execute, sql, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 122, in _execute
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiosqlite\core.py", line 105, in run
+    result = function()
+sqlite3.OperationalError: no such column: status
+2025-03-04 01:44:01,716 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:44:01,969 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:44:01,971 - root - INFO - Бот остановлен!
+2025-03-04 01:45:09,578 - root - INFO - База данных настроена
+2025-03-04 01:45:09,757 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:45:09,812 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:45:09,864 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:45:23,502 - root - INFO - Зарегистрирован новый пользователь: zerop913 (1109961645)
+2025-03-04 01:45:23,655 - aiogram.event - INFO - Update id=86666479 is handled. Duration 164 ms by bot id=7899125611
+2025-03-04 01:45:28,914 - aiogram.event - INFO - Update id=86666480 is handled. Duration 67 ms by bot id=7899125611
+2025-03-04 01:46:03,785 - root - INFO - Зарегистрирован новый пользователь: polier09 (6171113796)
+2025-03-04 01:46:03,859 - aiogram.event - INFO - Update id=86666481 is handled. Duration 89 ms by bot id=7899125611
+2025-03-04 01:46:07,085 - aiogram.event - INFO - Update id=86666482 is handled. Duration 183 ms by bot id=7899125611
+2025-03-04 01:46:13,755 - aiogram.event - INFO - Update id=86666483 is handled. Duration 195 ms by bot id=7899125611
+2025-03-04 01:46:27,068 - aiogram.event - INFO - Update id=86666484 is handled. Duration 69 ms by bot id=7899125611
+2025-03-04 01:46:34,304 - aiogram.event - INFO - Update id=86666485 is handled. Duration 471 ms by bot id=7899125611
+2025-03-04 01:46:35,749 - aiogram.event - INFO - Update id=86666486 is handled. Duration 195 ms by bot id=7899125611
+2025-03-04 01:46:41,540 - aiogram.event - INFO - Update id=86666487 is handled. Duration 116 ms by bot id=7899125611
+2025-03-04 01:46:42,959 - aiogram.event - INFO - Update id=86666488 is handled. Duration 137 ms by bot id=7899125611
+2025-03-04 01:46:48,686 - aiogram.event - INFO - Update id=86666489 is handled. Duration 60 ms by bot id=7899125611
+2025-03-04 01:46:56,336 - aiogram.event - INFO - Update id=86666490 is handled. Duration 608 ms by bot id=7899125611
+2025-03-04 01:47:03,331 - aiogram.event - INFO - Update id=86666491 is handled. Duration 78 ms by bot id=7899125611
+2025-03-04 01:47:06,930 - aiogram.event - INFO - Update id=86666492 is handled. Duration 227 ms by bot id=7899125611
+2025-03-04 01:47:14,270 - aiogram.event - INFO - Update id=86666493 is handled. Duration 61 ms by bot id=7899125611
+2025-03-04 01:47:21,981 - aiogram.event - INFO - Update id=86666494 is handled. Duration 127 ms by bot id=7899125611
+2025-03-04 01:47:25,667 - aiogram.event - INFO - Update id=86666495 is handled. Duration 73 ms by bot id=7899125611
+2025-03-04 01:47:28,018 - aiogram.event - INFO - Update id=86666496 is handled. Duration 75 ms by bot id=7899125611
+2025-03-04 01:47:35,652 - aiogram.event - INFO - Update id=86666497 is handled. Duration 470 ms by bot id=7899125611
+2025-03-04 01:47:38,894 - aiogram.event - INFO - Update id=86666498 is handled. Duration 163 ms by bot id=7899125611
+2025-03-04 01:47:40,529 - aiogram.event - INFO - Update id=86666499 is handled. Duration 136 ms by bot id=7899125611
+2025-03-04 01:47:45,217 - aiogram.event - INFO - Update id=86666500 is handled. Duration 136 ms by bot id=7899125611
+2025-03-04 01:47:49,865 - aiogram.event - INFO - Update id=86666501 is handled. Duration 154 ms by bot id=7899125611
+2025-03-04 01:47:52,130 - aiogram.event - INFO - Update id=86666502 is handled. Duration 84 ms by bot id=7899125611
+2025-03-04 01:48:00,324 - aiogram.event - INFO - Update id=86666503 is handled. Duration 119 ms by bot id=7899125611
+2025-03-04 01:48:02,691 - aiogram.event - INFO - Update id=86666504 is handled. Duration 86 ms by bot id=7899125611
+2025-03-04 01:48:12,124 - aiogram.event - INFO - Update id=86666505 is handled. Duration 94 ms by bot id=7899125611
+2025-03-04 01:48:15,001 - aiogram.event - INFO - Update id=86666506 is handled. Duration 186 ms by bot id=7899125611
+2025-03-04 01:51:46,032 - aiogram.event - INFO - Update id=86666507 is not handled. Duration 144 ms by bot id=7899125611
+2025-03-04 01:51:46,033 - aiogram.event - ERROR - Cause exception while process update id=86666507 by bot id=7899125611
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\middlewares\role_middleware.py", line 23, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\handlers\admin_handlers.py", line 332, in update_message_status
+    await callback.message.edit_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\bot.py", line 498, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-03-04 01:55:51,942 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:55:52,197 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:55:52,199 - root - INFO - Бот остановлен!
+2025-03-04 01:55:55,286 - root - INFO - База данных настроена
+2025-03-04 01:55:55,470 - root - INFO - Бот Кодовые фразы (@the_code_phrase_bot) успешно запущен!
+2025-03-04 01:55:55,524 - aiogram.dispatcher - INFO - Start polling
+2025-03-04 01:55:55,584 - aiogram.dispatcher - INFO - Run polling for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:55:59,782 - aiogram.event - INFO - Update id=86666508 is handled. Duration 245 ms by bot id=7899125611
+2025-03-04 01:56:03,040 - aiogram.event - INFO - Update id=86666509 is handled. Duration 145 ms by bot id=7899125611
+2025-03-04 01:56:04,168 - aiogram.event - INFO - Update id=86666510 is handled. Duration 130 ms by bot id=7899125611
+2025-03-04 01:56:04,939 - aiogram.event - INFO - Update id=86666511 is not handled. Duration 196 ms by bot id=7899125611
+2025-03-04 01:56:04,939 - aiogram.event - ERROR - Cause exception while process update id=86666511 by bot id=7899125611
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\middlewares\role_middleware.py", line 23, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "E:\Code\Python\bot-prizyva-net\handlers\admin_handlers.py", line 354, in update_message_status
+    await callback.message.edit_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\bot.py", line 498, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Ivan\AppData\Roaming\Python\Python313\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-03-04 01:56:10,097 - aiogram.event - INFO - Update id=86666512 is handled. Duration 131 ms by bot id=7899125611
+2025-03-04 01:56:15,555 - aiogram.event - INFO - Update id=86666513 is handled. Duration 550 ms by bot id=7899125611
+2025-03-04 01:56:24,089 - aiogram.event - INFO - Update id=86666514 is handled. Duration 153 ms by bot id=7899125611
+2025-03-04 01:56:27,598 - aiogram.event - INFO - Update id=86666515 is handled. Duration 75 ms by bot id=7899125611
+2025-03-04 01:56:32,746 - aiogram.event - INFO - Update id=86666516 is handled. Duration 124 ms by bot id=7899125611
+2025-03-04 01:56:35,183 - aiogram.event - INFO - Update id=86666517 is handled. Duration 151 ms by bot id=7899125611
+2025-03-04 01:56:39,083 - aiogram.event - INFO - Update id=86666518 is handled. Duration 188 ms by bot id=7899125611
+2025-03-04 01:56:41,214 - aiogram.event - INFO - Update id=86666519 is handled. Duration 96 ms by bot id=7899125611
+2025-03-04 01:56:52,124 - aiogram.event - INFO - Update id=86666520 is handled. Duration 148 ms by bot id=7899125611
+2025-03-04 01:56:53,976 - aiogram.event - INFO - Update id=86666521 is handled. Duration 74 ms by bot id=7899125611
+2025-03-04 01:58:04,526 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-04 01:58:04,779 - aiogram.dispatcher - INFO - Polling stopped for bot @the_code_phrase_bot id=7899125611 - 'Кодовые фразы'
+2025-03-04 01:58:04,780 - root - INFO - Бот остановлен!
